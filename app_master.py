@@ -771,7 +771,7 @@ def molecular_properties():
 
 def page_adme():
 
-    st.title("ADME App - Knowdis")
+    st.title("ADME App")
 
     # Input field for molecule
     molecule_input = st.text_input("Enter a SMILES string:")
@@ -1006,7 +1006,7 @@ def create_tox21_dataframe(dframe):
 
 
 def app_tox():
-    st.title("Toxicities App - Molecule AI")
+    st.title("Toxicities App")
      # Input field for molecule
     molecule_input = st.text_input("Enter a SMILES string:")
     mol=Chem.MolFromSmiles(molecule_input)
