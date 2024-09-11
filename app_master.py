@@ -547,7 +547,7 @@ def filter_dataframe(final_df2, num_pass):
 
 def molecular_properties():
     model_file='etoxpred_best_model.joblib'
-    st.title("Molecular Properties App - Knowdis")
+    st.title("Molecular Properties App")
 
     # Input field for molecule
     molecule_input = st.text_input("Enter a SMILES string:")
